@@ -5,6 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'friendly_id', '~> 5.1.0'
+
+gem 'bulma-rails'
+
 gem 'devise'
 # gem to run onmiauth
 gem 'omniauth-github','~> 1.0.0'
